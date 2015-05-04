@@ -6,10 +6,10 @@ android {
 
     defaultConfig {
         applicationId "com.soucriador.jhonattas"
-        minSdkVersion 21
-        targetSdkVersion 21
+        minSdkVersion 15
+        targetSdkVersion 22
         versionCode 1
-        versionName "1.0"
+        versionName "0.1"
     }
     buildTypes {
         release {
@@ -21,9 +21,11 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:21.0.+'
+    compile 'com.android.support:support-v13:22.0.+'
+    compile 'com.android.support:appcompat-v7:22.0.+'
     compile 'com.android.support:cardview-v7:21.0.+'
-    compile 'com.android.support:recyclerview-v7:21.0.+'
+    compile 'com.android.support:recyclerview-v7:22.0.+'
     compile project(':viewpager_indicator')
-    compile project(':material_drawer')
+    compile files('libs/volley.jar')
+
 }

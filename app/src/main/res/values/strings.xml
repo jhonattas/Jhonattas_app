@@ -1,14 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Jhonattas</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="app_name">@string/jhonattas</string>
+
+    <!-- General -->
+    <string name="jhonattas">Jhonattas</string>
+    <string name="i_am">I am</string>
+    <string name="creator">Creator</string>
+    <string name="i_am_creator">I am Creator</string>
+    <string name="loren_ipsun">Loren Ipsun</string>
     <string name="action_settings">Settings</string>
+    <string name="drawer_open">Menu opened</string>
+    <string name="drawer_close">Menu closed</string>
+    <string name="press_back_to_quit">Press Back again to quit</string>
+    <string name="loading">Loading</string>
+
+    <!-- introduction -->
     <string name="title_activity_introduction">Introduction</string>
+    <string name="veteran_programmer">Veteran Programmer</string>
+    <string name="aspiring_design">Aspiring Designer</string>
+    <string name="explore">Explore</string>
+
+    <!-- Sections -->
     <string name="title_section1">Section 1</string>
     <string name="title_section2">Section 2</string>
     <string name="title_section3">Section 3</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="title_activity_welcome">Jhonattas</string>
+    <string name="section_projects">Projects</string>
+    <string name="section_education">Education</string>
+    <string name="section_work_experience">Work Experience</string>
+    <string name="section_about_me">About Me</string>
+    <string name="section_contact">Contact</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
 
 </resources>

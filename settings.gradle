@@ -1,2 +1,2 @@
-include ':app', ':material_drawer'
+include ':app'
 include ':viewpager_indicator'

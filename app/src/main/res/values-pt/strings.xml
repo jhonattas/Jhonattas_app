@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">@string/jhonattas</string>
+
+    <!-- General -->
+    <string name="jhonattas">Jhonattas</string>
+    <string name="i_am">Sou</string>
+    <string name="creator">Criador</string>
+    <string name="i_am_creator">Sou Criador</string>
+
+    <string name="loren_ipsun">Loren Ipsun</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="drawer_open">Menu aberto</string>
+    <string name="drawer_close">Menu fechado</string>
+    <string name="press_back_to_quit">Pressione voltar para encerrar</string>
+    <string name="loading">Carregando</string>
+
+    <!-- introduction -->
+    <string name="title_activity_introduction">Introdução</string>
+    <string name="veteran_programmer">Programador Veterano</string>
+    <string name="aspiring_design">Designer Aspirante</string>
+    <string name="explore">Explorar</string>
+
+    <!-- Sections -->
+    <string name="title_section1">Seção 1</string>
+    <string name="title_section2">Seção 2</string>
+    <string name="title_section3">Seção 3</string>
+
+    <string name="section_projects">Projetos</string>
+    <string name="section_education">Educação</string>
+    <string name="section_work_experience">Experiência</string>
+    <string name="section_about_me">Sobre Mim</string>
+    <string name="section_contact">Contato</string>
+
+</resources>

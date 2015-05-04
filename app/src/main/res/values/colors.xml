@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- material -->
+    <color name="color_primary">#FF323A45</color>
+    <item name="color_primary_dark" type="color">#FF282F38</item>
+    <color name="myDrawerBackground">#F2F2F2</color>
+    <color name="selected_gray">#ffdbdbdb</color>
+    <color name="photo_tint">#7f101010</color>
+
+    <!-- sou criador -->
+    <item name="logo_gray"          type="color">#FF323232</item>
+    <item name="logo_red"           type="color">#FFCC4F53</item>
+    <item name="logo_cyano"         type="color">#FF3EBBFA</item>
+    <item name="logo_cryano_dark"   type="color">#FF2F73AA</item>
+    <item name="logo_green"         type="color">#FF5DBD66</item>
+    <item name="logo_blue"          type="color">#FF41A2B3</item>
+    <item name="logo_blue_dark"     type="color">#FF328599</item>
+
+</resources>
