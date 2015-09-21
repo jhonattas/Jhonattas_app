@@ -4,6 +4,7 @@ package com.soucriador.jhonattas.ui;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.PorterDuff;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -54,6 +55,12 @@ public class IntroductionPage03Fragment extends Fragment {
 
         // esconde o botao do layout
         introduction_page_button_accept = (Button) rootview.findViewById(R.id.introduction_page_button_accept);
+        introduction_page_button_accept
+                .getBackground()
+                .setColorFilter(
+                        getResources().getColor(R.color.logo_red), PorterDuff.Mode.MULTIPLY
+                );
+        introduction_page_button_accept.setTextColor(getResources().getColor(android.R.color.white));
         introduction_page_button_accept.setText(getString(R.string.explore));
         introduction_page_button_accept.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -68,12 +75,11 @@ public class IntroductionPage03Fragment extends Fragment {
     }
 
     public void savePreferences(){
-        boolean firstSee = false;
         sharedPreferences = getActivity().getSharedPreferences(PREFS_PRIVATE, Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedPreferences.edit();
 
-        editor.putBoolean("firstSee", firstSee);
-        editor.commit();
+        editor.putBoolean("firstSee", false);
+        editor.apply();
     }
 
 }

@@ -1,17 +1,17 @@
 package com.soucriador.jhonattas.ui;
 
-import android.app.FragmentManager;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 import com.soucriador.jhonattas.R;
 
-public class SectionsActivity extends ActionBarActivity implements NavigationDrawerCallbacks {
+public class SectionsActivity extends AppCompatActivity implements NavigationDrawerCallbacks {
 
     boolean exit = false;
     Toolbar main_toolbar;
@@ -27,7 +27,7 @@ public class SectionsActivity extends ActionBarActivity implements NavigationDra
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         main_toolbar.setBackgroundColor(getResources().getColor(R.color.color_primary));
 
-        navigationDrawerFragment = (NavigationDrawerFragment) getFragmentManager().findFragmentById(R.id.criador_fragment_drawer);
+        navigationDrawerFragment = (NavigationDrawerFragment) getSupportFragmentManager().findFragmentById(R.id.criador_fragment_drawer);
         navigationDrawerFragment.setup(R.id.criador_fragment_drawer, (DrawerLayout) findViewById(R.id.criador_drawer), main_toolbar);
         //Intent i = new Intent(this, IntroductionActivity.class);
         //startActivity();
@@ -60,7 +60,7 @@ public class SectionsActivity extends ActionBarActivity implements NavigationDra
     @Override
     public void onNavigationDrawerItemSelected(int position) {
 
-        FragmentManager fragmentManager = getFragmentManager();
+        FragmentManager fragmentManager = getSupportFragmentManager();
         // Toast.makeText(this, "MenuItem selected -> " + position, Toast.LENGTH_SHORT).show();
 
         switch (position){

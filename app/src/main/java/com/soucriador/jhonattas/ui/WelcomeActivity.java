@@ -40,11 +40,9 @@ public class WelcomeActivity extends ActionBarActivity {
     }
 
     public boolean loadPreferences(){
-        boolean firstSee = true;
         sharedPreferences = getSharedPreferences(Config.PREFS_PRIVATE, Context.MODE_PRIVATE);
-        firstSee = sharedPreferences.getBoolean("firstSee", firstSee);
-        // TODO return firstSee;
-        return true;
+        boolean firstSee = sharedPreferences.getBoolean("firstSee", true);
+        return firstSee;
     }
 
 }
