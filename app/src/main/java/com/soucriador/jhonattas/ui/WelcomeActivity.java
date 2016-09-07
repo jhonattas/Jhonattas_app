@@ -24,13 +24,8 @@ public class WelcomeActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
 
-        if(loadPreferences()){
-            startActivity(new Intent(this, IntroductionActivity.class));
-            finish();
-        } else {
-            startActivity(new Intent(this, SectionsActivity.class));
-            finish();
-        }
+        startActivity(new Intent(this, SectionsActivity.class));
+        finish();
     }
 
     // não exibe o menu na tela inicial

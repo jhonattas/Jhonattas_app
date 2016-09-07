@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Jhonattas.iml" filepath="$PROJECT_DIR$/Jhonattas.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/viewpager_indicator/viewpager_indicator.iml" filepath="$PROJECT_DIR$/viewpager_indicator/viewpager_indicator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jhonattas_app.iml" filepath="$PROJECT_DIR$/jhonattas_app.iml" />
     </modules>
   </component>
 </project>
