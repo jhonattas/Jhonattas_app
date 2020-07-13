@@ -78,11 +78,11 @@ public class ProjectsFragment extends Fragment {
                         JSONObject o2 = o.getJSONObject("Project");
 
                         Project p = new Project();
-                        p.setTitle(         o2.getString("title"));
-                        p.setResume(        o2.getString("resume"));
-                        p.setDescription(   o2.getString("description"));
-                        p.setLink(          o2.getString("link"));
-                        p.setThumbnailUrl(  o2.getString("image"));
+                        p.title = o2.getString("title");
+                        p.resume = o2.getString("resume");
+                        p.description = o2.getString("description");
+                        p.link = o2.getString("link");
+                        p.thumbnailUrl = o2.getString("image");
                         projects.add(p);
 
                     } catch (JSONException e){

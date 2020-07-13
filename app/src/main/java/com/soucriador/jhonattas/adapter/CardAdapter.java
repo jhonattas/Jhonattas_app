@@ -37,8 +37,8 @@ public class CardAdapter extends RecyclerView.Adapter<CardAdapter.ViewHolder>{
         }
 
         Project project = mProjects.get(i);
-        viewHolder.projects_recycler_view_card_title.setText(project.getTitle());
-        viewHolder.projects_recycler_view_card_img.setImageUrl(project.getThumbnailUrl(), imageLoader);
+        viewHolder.projects_recycler_view_card_title.setText(project.title);
+        viewHolder.projects_recycler_view_card_img.setImageUrl(project.thumbnailUrl, imageLoader);
     }
 
     @Override

@@ -14,9 +14,6 @@ import android.graphics.drawable.Drawable;
 import androidx.appcompat.widget.AppCompatImageView;
 import android.util.AttributeSet;
 
-/**
- * Esta classe cria uma imagem redonda
- */
 public class RoundedImageView extends AppCompatImageView {
 
     public RoundedImageView(Context context) {
