@@ -1,9 +1,9 @@
 package com.soucriador.jhonattas.ui;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 
@@ -11,7 +11,7 @@ import com.soucriador.jhonattas.Config;
 import com.soucriador.jhonattas.R;
 
 
-public class WelcomeActivity extends ActionBarActivity {
+public class WelcomeActivity extends Activity {
 
     // nome da classe que aparece no log
     private final String TAG = WelcomeActivity.class.getSimpleName();
