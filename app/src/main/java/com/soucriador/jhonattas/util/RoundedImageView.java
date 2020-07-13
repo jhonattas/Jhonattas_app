@@ -11,13 +11,13 @@ import android.graphics.PorterDuffXfermode;
 import android.graphics.Rect;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
+import android.support.v7.widget.AppCompatImageView;
 import android.util.AttributeSet;
-import android.widget.ImageView;
 
 /**
  * Esta classe cria uma imagem redonda
  */
-public class RoundedImageView extends ImageView {
+public class RoundedImageView extends AppCompatImageView {
 
     public RoundedImageView(Context context) {
         super(context);

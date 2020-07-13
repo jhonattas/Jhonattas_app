@@ -1,17 +1,17 @@
 package com.soucriador.jhonattas.ui;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 
 import com.soucriador.jhonattas.Config;
 import com.soucriador.jhonattas.R;
 
 
-public class WelcomeActivity extends Activity {
+public class WelcomeActivity extends AppCompatActivity {
 
     // nome da classe que aparece no log
     private final String TAG = WelcomeActivity.class.getSimpleName();
