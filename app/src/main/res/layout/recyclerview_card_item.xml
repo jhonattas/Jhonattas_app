@@ -13,14 +13,14 @@
 
         <com.android.volley.toolbox.NetworkImageView
             style="@style/CardPhoto"
-            android:id="@+id/projects_recycler_view_card_img"
+            android:id="@+id/projectsCardImg"
             android:layout_width="fill_parent"
             android:layout_height="200dp"
             android:scaleType="centerCrop"
             />
         <TextView
             style="@style/CardTitle"
-            android:id="@+id/projects_recycler_view_card_title"
+            android:id="@+id/projectsCardTitle"
         />
 
     </androidx.cardview.widget.CardView>
